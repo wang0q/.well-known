@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.android.demo",
+    "sha256_cert_fingerprints":
+    ["60:3A:4C:5D:92:29:ED:6E:17:5E:2F:DD:62:4D:2F:D6:1C:13:F9:BA:8C:27:7B:ED:12:D0:3B:25:3D:DB:87:31"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://wang0q.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.android.demo",
+    "sha256_cert_fingerprints":
+    ["60:3A:4C:5D:92:29:ED:6E:17:5E:2F:DD:62:4D:2F:D6:1C:13:F9:BA:8C:27:7B:ED:12:D0:3B:25:3D:DB:87:31"]
+  }
+}]
